@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  
+
+<bean id="model" class="com.javapoint.model">
+	
+	<property name="artist_name"><value>Da vinchi</value></property>
+	<property name="artist_title"><value></value></property>
+	<property name="artist_id"><value>4151434</value></property>
+
+</bean>
+
+</beans>
